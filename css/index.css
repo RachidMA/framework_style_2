@@ -1,0 +1,45 @@
+body {
+   
+    margin: 0;
+    padding: 0;
+       
+}
+
+.container-fluid {
+    background-color: rgb(226, 237, 240);
+}
+.card-body{
+    background-color: rgb(154, 154, 242);
+}
+
+.btn-primary:hover {
+    background-color: black;
+}
+
+button[title='Hooray!']{
+    background-color: red;
+}
+
+.tooltip-text {
+    background-color: white;
+    visibility: hidden;
+    width: 200px;
+    height: 50px;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    right: 50%;
+    z-index: 1;
+  }
+
+  .toolTip:hover .tooltip-text {
+    visibility: visible;
+  }
+
+a {
+    text-decoration: none;
+    color: white;
+}
